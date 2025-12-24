@@ -1,0 +1,33 @@
+{
+    "name": "ESP32_AnimatedGIF",
+    "version": "1.0.0",
+    "description": "Animated GIF decoder optimized for ESP32 with Arduino framework",
+    "keywords": "gif, animation, esp32, arduino, display, graphics",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yourusername/ESP32_AnimatedGIF.git"
+    },
+    "authors": [
+        {
+            "name": "Deepseek",
+            "email": "your.email@example.com",
+            "url": "https://github.com/yourusername",
+            "maintainer": true
+        }
+    ],
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/yourusername/ESP32_AnimatedGIF",
+    "frameworks": "arduino",
+    "platforms": ["espressif32"],
+    "headers": ["ESP32_AnimatedGIF.h"],
+    "dependencies": [],
+    "export": {
+        "exclude": [
+            "test",
+            "*.md",
+            "*.txt",
+            "examples/*/build",
+            "examples/*/.pio"
+        ]
+    }
+}
