@@ -23,7 +23,7 @@ An optimized Animated GIF decoder for ESP32 with Arduino framework, refactored f
 Add to `platformio.ini`:
 ```ini
 lib_deps = 
-    https://github.com/deepseek-ai/ESP32_AnimatedGIF.git
+    https://github.com/ZONESTAR3D/ESP32_AnimatedGIF.git
 ```
 
 ## Dependencies
@@ -149,4 +149,4 @@ Apache License 2.0
 ## Credits
 
 Refactored from Animated GIF decoder by Larry Bank (bitbank@pobox.com)  
-Maintained by Deepseek
+Maintained by Hally (Wrote by Deepseek)
